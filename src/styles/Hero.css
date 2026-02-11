@@ -1,0 +1,46 @@
+.hero {
+  background: radial-gradient(circle at center, #2a0f00 0%, #000 70%);
+  padding: 100px 80px 40px;
+  margin-left: 70px;
+  margin-right: 50px;
+  color: white;
+}
+
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #ff5a00;
+  letter-spacing: 2px;
+}
+
+.hero-sub {
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.outline-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.outline-btn:hover {
+  background: white;
+  color: black;
+}

@@ -1,0 +1,23 @@
+ .member-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  max-width: 1100px;
+  margin-top: 50px;
+  padding: 0 20px 60px;
+  margin-left: 130px;
+  
+}
+
+
+@media (max-width: 1024px) {
+  .member-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .member-list {
+    grid-template-columns: 1fr;
+  }
+} 
