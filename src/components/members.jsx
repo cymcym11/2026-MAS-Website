@@ -2,7 +2,7 @@ import { fifthMembers } from "../data/fifthMembers";
 import MembersCard from "./MembersCard";
 import "../styles/members.css";
 
-export default function Members({ generation }) {
+ function Members({ generation }) {
   let members = [];
 
   if (generation === 5) members = fifthMembers;
@@ -15,4 +15,5 @@ export default function Members({ generation }) {
     </div>
   );
 }
+export default Members
 

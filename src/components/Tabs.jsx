@@ -1,6 +1,6 @@
 import "../styles/Tabs.css";
 
-export default function Tabs() {
+ function Tabs() {
   return (
     <div className="tabs">
       <a href="/4th" className="tab">4기</a>
@@ -9,3 +9,4 @@ export default function Tabs() {
     </div>
   );
 }
+export default Tabs

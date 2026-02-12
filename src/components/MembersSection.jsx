@@ -1,7 +1,7 @@
 
  import "../styles/MembersSection.css";
 
- export default function MembersSection() {
+  function MembersSection() {
    return (
      <section className="hero">
        <h1>We are MAS !!</h1>
@@ -9,4 +9,5 @@
      </section>
    );
  }
+ export default MembersSection
 

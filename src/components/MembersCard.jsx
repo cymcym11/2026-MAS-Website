@@ -1,4 +1,4 @@
-export default function MembersCard({ name, major, role, tag, image }) {
+ function MembersCard({ name, major, role, tag, image }) {
   return (
     <div className="member-card">
       <img src={image} alt={name} />
@@ -12,3 +12,5 @@ export default function MembersCard({ name, major, role, tag, image }) {
     </div>
   );
 }
+
+export default MembersCard
